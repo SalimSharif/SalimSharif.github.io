@@ -1,0 +1,305 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Salim Sharif - Portfolio Website </title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div id="header"> 
+    <div class="container">
+        <nav>
+            <img src= "./Images/Salim-transformed.png" class="logo">
+            <ul id="sidemenu">
+                <li><a href="#header">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#portfolio">Portfolio</a></li>
+                <li><a href="#contact">Contact</a></li>
+                <i class="fa-solid fa-xmark", style="color: #fff;" onclick="closemenu()"></i>
+            </ul>
+            <i class="fa-solid fa-bars" style="color: #fff;" onclick="openmenu()"></i>       
+        </nav>
+        <div class="header-text">
+            <p>Economist / Data Scientist</p>
+            
+            <h1> Hi there!<br> <span>Welcome to my personal website :)</span> </h1>
+            <a href="./Images/Salim_Sharif-Resume.pdf" class="cv"><i class="fa-solid fa-download" style="color: #fff;"></i>
+            <span>Download Resume</span>
+            </a>
+        </div>
+    </div>
+</div> 
+
+ <!--Adding the  Font Awesome library -->
+<head>
+       <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+
+
+
+
+
+
+
+<!---------------------------- About -------------------------------------------------->  
+
+<div id="about">
+    <div class="container">
+        <div class="row">
+            <div class="about-col-1">
+                <img src="./Images/Salim_Sharif-Photo-modified.png">
+            </div>
+            <div class="about-col-2">
+                <h1 class="sub-title">About</h1>
+                <p style="text-align: justify;">
+                    I am an Economist with an MSc in Applied Economics and Predictive Analytics and a BS in Economics and Statistics. My passion revolves around extracting valuable insights from data to solve business challenges. I have honed my proficiency in Python, SQL, R, STATA, and Excel (including VBA) to facilitate process automation, querying data sets, data analysis, predictive analytics, inferences, and visualization tasks. Key career highlights include:
+                    <br>
+                    <br>
+                    <ul style="list-style-position: inside;text-align: justify;">
+                      <li>Fine-tuning OpenAI's ChatGPT 4.0 before its release (Scale AI)</li>
+                      <br>
+                      <li>Cleaned and analyzed survey data for the CCT Nigeria World Bank project (Christad Foundation)</li>
+                      <br>
+                      <li>Solved several business problems, including concentration risk management that involved business directors (NBC Bank)</li>
+                    </ul>
+                    
+                    <br>
+                    <br>
+                    I love people, data, and models :) Feel free to reach out to connect!
+                    </p>
+                    <br>
+                    <b>Open to Work:</b> Data Scientist, Economist, Statistician, Business Analyst, Data Analyst, Data Engineer and similar roles. 
+                    <br>
+                    <b>Pay range:</b>  <i>$80,000 to $100,000.</i>
+                    </p>
+                    
+                <div class="tab-titles">
+                    <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                    <p class="tab-links" onclick="opentab('experience')">Experience</p>
+                    <p class="tab-links" onclick="opentab('education')">Education</p>                
+                </div>
+                <div>
+                    <div class="tab-contents active-tab" id="skills">
+                        <ul style="list-style-position: inside; text-align: justify;">
+                            <li style="list-style-position: inside; text-align: justify;">
+                                <span>Data Wrangling</span>
+                                <br>
+                                <div style="margin-left: 20px;">
+                                    Utilized tools like python, R and SQL to cleaning, transforming, and organizing raw data into a structured format.                                
+                                </div>                                
+                            </li>
+                            <li style="list-style-position: inside; text-align: justify;">
+                                <span>Data Visualization</span>
+                                <br>
+                                <div style="margin-left: 20px;">
+                                    Created insightful visuals and dashboards with BI tools like Tableau and Power BI.                              
+                                </div>                                
+                            </li>
+                            <li style="list-style-position: inside; text-align: justify;">
+                                <span>Predicive Analytics and Classification</span>
+                                <br>
+                                <div style="margin-left: 20px;">
+                                    Utilizing ML algorithm (like Logistic, K-Means, & Random Forest) and Timeseries Econometrics (like ARIMA & VAR) for forecasting and classification problems using R and Python.                                
+                                </div>                                
+                            </li>
+                        </ul>
+                    </div>        
+                
+                            
+                                               
+                    <div class="tab-contents" id="experience">
+                        <ul style="list-style-position: inside; text-align: justify;">
+                            <li style="list-style-position: inside; text-align: justify;">
+                                <span>Assistant Economics Lecturer</span>
+                                <br>
+                                <div style="margin-left: 20px;">
+                                Employer: Baum Tenpers Institute (part-time) - Jan 2024 to Current
+                                <br>
+                                Location: Remote, US
+                                </div>
+                            </li>
+                            <li style="list-style-position: inside; text-align: justify;">
+                                <span>AI Specialist</span>
+                                <br>
+                                <div style="margin-left: 20px;">
+                                Employer: Scale AI (Contract) - 4 Months
+                                <br>
+                                Location: Southlake,TX US
+                                </div>
+                            </li>
+                                <li style="list-style-position: inside; text-align: justify;">
+                                <span>Graduate Teaching Assistant</span>
+                                <br>
+                                <div style="margin-left: 20px;">
+                                    Employer: Southern Methodist University - 1.5 Years
+                                    <br>
+                                    Location: Dallas,TX US
+                                </div>
+                                </li>
+                                <li style="list-style-position: inside; text-align: justify;">
+                                <span>Research Assistant </span>
+                                <br>
+                                <div style="margin-left: 20px;">
+                                    Employer: CHRISTAD Foundation (Contract) - 5 Months
+                                    <br>
+                                    Location: Remote
+                                </div>
+                            </li>
+                            <li style="list-style-position: inside; text-align: justify;">
+                                <span>Treasury and Global Markets Trainee </span>
+                                <br>
+                                <div style="margin-left: 20px;">
+                                    Employer: National Bank of Commerce - 1 year
+                                    <br>
+                                    Location: Dar es Salaam, TZ
+                                </div>
+                            </li>
+                            <li style="list-style-position: inside; text-align: justify;">
+                                <span>Research Assistant </span>
+                                <br>
+                                <div style="margin-left: 20px;">
+                                    Employer: Centre of Behavioural Studies (CBS-UDSM) - 5 Months
+                                    <br>
+                                    Location: Dar es Salaam, TZ
+                                </div>
+                            </li>
+                            <li style="list-style-position: inside; text-align: justify;">
+                                <span>Economist Intern </span>
+                                <br>
+                                <div style="margin-left: 20px;">
+                                    Employer: Temeke Municipal Councl - 5 Months
+                                    <br>
+                                    Location: Dar es Salaam, TZ
+                                </div>
+                          </li>
+                        </ul>
+                    </div>
+
+
+                    <div class="tab-contents" id="education">
+                        <ul style="list-style-position: inside; text-align: justify;">
+                            <li style="list-style-position: inside; text-align: justify;">
+                                <span>MSc in Applied Economics and Predictive Analytics </span>
+                                <br>
+                                <div style="margin-left: 20px;">
+                                    Institution: Southern Methodist University
+                                    <br>
+                                    Relevant CW: Survival models, Regression analysis, Casual Inference, Time-series econometrics
+                                </div>
+                            </li>
+                            <li style="list-style-position: inside; text-align: justify;">
+                                <span>BS in Economics and Statistics </span>
+                                <br>
+                                <div style="margin-left: 20px;">
+                                    Institution: University of Dar es Salaam
+                                    <br>
+                                    Relevant CW: Linear Algebra, Calculus, Econometrics, Stochastic processes and modeling.
+                                </div>
+                            </li>        
+                            
+                        </ul>
+                        
+                    </div>
+
+                
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+
+
+<!---------------------portfolio--------------------------------------------------->
+
+<div id="portfolio">
+    <div class="container">
+        <h1><div class="sub-title">My Projects</h1>
+            <div class="work-list">
+                <div class="work">
+                    <img src="./Images/netflix-logo.png">
+                    <div class="layer">
+                        <h3>Deriving Insights from Netflix Dataset:  ETL + Visualization Project (Python, SQL & Tableau)</h3>
+                        <p>Description: .......</p>
+                        <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                    </div>
+                </div>
+
+                <div class="work">
+                    <img src="./Images/Budget_forecast.jpeg">
+                    <div class="layer">
+                        <h3>Electricity Cost Forecasting: An Application of Time-series Econometrics with R</h3>
+                        <p>Description: .......</p>
+                        <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                    </div>
+                </div>  
+                
+                <div class="work">
+                    <img src="./Images/Heart_disease.jpeg">
+                    <div class="layer">
+                        <h3>Predicting Heart Disease: A Comprehensive Analysis of Machine Learning Techniques with Python </h3>
+                        <p>Description: .......</p>
+                        <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                    </div>
+                </div>  
+                
+            </div>
+            <a href="#" class="btn"> See more</a>
+    </div>
+</div>
+
+
+
+
+
+<!------------------------------------Contact ------------------------------------------------->
+<div id="contact">
+    <div class="row">
+        <div class="contact-left">
+            <h1 class="sub-title">Contact Me</h1>
+            <div class="contact-info">
+                <p><i class="fa-solid fa-location-dot" style="color: #c00505;"></i><span>Dallas TX, USA</span></p>
+                <p><i class="fa-solid fa-envelope" style="color: #c00505;"></i><span><a href="mailto:salim_hsharif@outlook.com" style="color: #ffff;">salim_hsharif@outlook.com</a></span></p>
+                <p><i class="fa-solid fa-phone" style="color: #c00505;"></i><span><a href="tel:+14698752179" style="color: #fff;">+1 469-875-2179</a></span></p>
+            </div>
+            <div class="social-links">
+                <a href="https://www.linkedin.com/in/salim-sharif/" style="color: #c00505;"><i class="fa-brands fa-linkedin"></i></a>
+                <a href="https://github.com/SalimSharif" style="color: #c00505;"><i class="fa-brands fa-github"></i></a>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+<script>
+    var tablinks = document.getElementsByClassName("tab-links");
+    var tabcontents = document.getElementsByClassName("tab-contents");
+    function opentab(tabname){
+        for(tablink of tablinks){
+            tablink.classList.remove("active-link");
+        }
+        for(tabcontent of tabcontents){
+            tabcontent.classList.remove("active-tab");
+        }
+        event.currentTarget.classList.add("active-link");
+        document.getElementById(tabname).classList.add("active-tab");
+    }
+</script>
+
+<script>
+    var sidemenu = document.getElementById("sidemenu")
+
+    function openmenu(){
+        sidemenu.style.right = "0"
+    }
+
+    function closemenu(){
+        sidemenu.style.right = "-200px"
+    }
+</script>
+
+</body>
+</html>
